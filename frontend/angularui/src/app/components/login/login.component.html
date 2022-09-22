@@ -1,0 +1,12 @@
+<form>
+  <div class="mb-3">
+    <label  class="form-label">Email address</label>
+    <input type="email" [(ngModel)]="loginUser.email" class="form-control" name="Email">
+  </div>
+  <div class="mb-3">
+    <label  class="form-label">Password</label>
+    <input [(ngModel)]="loginUser.password" type="password" class="form-control" name="Password">
+  </div>
+
+  <button type="submit" (click)="login(loginUser)" class="btn btn-primary">Login</button>
+</form>
