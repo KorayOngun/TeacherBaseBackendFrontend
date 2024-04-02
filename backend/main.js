@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 
 
 mongoose.connect(
-  "mongodb+srv://koray:1@cluster0.h3bc62p.mongodb.net/?retryWrites=true&w=majority",
+  "<>",
   (err) => {
     if (!err) {
       console.log("Connected to DB");
